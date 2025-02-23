@@ -1,0 +1,113 @@
+.signin-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top right, #f4e7d3, #d8b4fe);
+    color: #6b46c1;
+    transition: all 0.5s ease;
+  }
+  
+  .appbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(249, 232, 201, 0.9);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 480px;
+    padding: 1.5rem;
+  }
+  
+  .form-box {
+    position: relative;
+    background: white;
+    padding: 2.5rem;
+    border-radius: 24px;
+    box-shadow: 0 12px 24px rgba(107, 70, 193, 0.25), 0 6px 18px rgba(107, 70, 193, 0.15);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .form-box:hover {
+    box-shadow: 0 16px 32px rgba(107, 70, 193, 0.35), 0 8px 20px rgba(107, 70, 193, 0.2);
+  }
+  
+  .decorative-circle {
+    position: absolute;
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5rem;
+    height: 5rem;
+    background: #6b46c1;
+    border-radius: 50%;
+    opacity: 0.2;
+    filter: blur(20px);
+    pointer-events: none;
+  }
+  
+  .form-box h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 0.75rem;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .form-box p {
+    font-size: 1rem;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .input-group {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  
+  .form-box input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #d8b4fe;
+    border-radius: 6px;
+  }
+  
+  .form-box input:focus {
+    outline: none;
+    border-color: #6b46c1;
+    box-shadow: 0 0 5px rgba(107, 70, 193, 0.5);
+  }
+  
+  .button-wrapper {
+    padding-top: 2.5rem;
+  }
+  
+  button {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0.85rem;
+    background: #6b46c1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  button:hover {
+    background: #553c9a;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  }
